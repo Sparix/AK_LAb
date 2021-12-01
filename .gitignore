@@ -1,32 +1,11 @@
-# Prerequisites
-*.d
+#include "calculator.h"
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+int Calculator::Add (double a, double b)
+{
+	return a + b + 0.5;
+}
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+int Calculator::Sub (double a, double b)
+{
+	return Add (a, -b);
+}
