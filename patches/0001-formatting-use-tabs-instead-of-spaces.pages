@@ -14,11 +14,11 @@ Signed-off-by: Sergii Piatakov <sergii.piatakov@globallogic.com>
 
 diff --git a/calculator.cpp b/calculator.cpp
 index b91afea..d93e35b 100644
-a/calculator.cpp
+b/calculator.cpp
 
  int Calculator::Add (double a, double b)
  {
-   return a + b;
+      return a + b + 0.5;
 }
  
  int Calculator::Sub (double a, double b)
